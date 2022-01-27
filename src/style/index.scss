@@ -1,0 +1,14 @@
+$color-red: rgb(255, 20, 20);
+
+@font-face {
+    font-family: 'Big Noodles';
+    src: url('../assets/fonts/big_noodle_titling.ttf');
+}
+h1 {
+  color: $color-red;
+  font-family: 'Big Noodles';
+}
+
+body {
+    background-image: url('../assets/images/background_convention_game.jpg');
+}
