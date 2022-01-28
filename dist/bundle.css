@@ -10,6 +10,62 @@ h1 {
   font-family: "Big Noodles";
 }
 
+h2 {
+  color: white;
+  font-family: "Big Noodles";
+}
+
 body {
-  background-image: url(53ca8c62cb90b71708fa.jpg);
+  background-color: #242222;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.redline {
+  background-color: #ff1414;
+  height: 10px;
+  width: 10%;
+}
+
+footer {
+  padding-left: 30px;
+}
+
+p {
+  color: white;
+}
+
+.thetitle {
+  width: fit-content;
+}
+
+.notonborders {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.searchbar {
+  border-radius: 50px;
+  height: 2em;
+  width: 90%;
+  background-color: #242222;
+  border: 2px solid #f0eeee;
+  padding: 10px 20px;
+  color: #d8caca;
+}
+
+.writing {
+  color: white;
+  font-family: "Big Noodles";
+  text-decoration: none;
 }
