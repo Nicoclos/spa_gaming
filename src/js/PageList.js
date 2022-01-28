@@ -10,7 +10,7 @@ const PageList = (argument = '') => {
             <h1>${article.name}</h1>
             <h2>${article.released}</h2>
             <button button type="button" class="btn btn-danger writing">
-              <a href="#pagedetail/${article.id}">Details</a>
+              <a href="#pagedetail/${article.id}">Show more</a>
             </button>
           </article>`
         ));
